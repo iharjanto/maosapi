@@ -1,2 +1,1 @@
-web: gunicorn
-worker: python manage.py runserver
+web: python manage.py runserver 0.0.0.0:5000
