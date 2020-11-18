@@ -24,7 +24,7 @@ def run():
 
 @app.route('/')
 def index():
-    return "Contoh"
+    return "untuk mengakses data monitoring"
 
 
 if __name__ == '__main__':

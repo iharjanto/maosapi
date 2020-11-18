@@ -17,6 +17,6 @@ def plants():
 
 @exbp.route('/plant/<id>')
 def get_plant(id):
-    all = Plant.query.filter_by(plant_id=id).first()
-    return plantSchema.dumps(all)
+    p = Plant.query.filter_by(plant_id=id).first()
+    return plantSchema.dumps(p)
 
