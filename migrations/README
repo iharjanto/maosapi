@@ -1,1 +1,1 @@
-Generic single-database configuration.
+web api untuk membaca database postgre menggunakan sqlalchemy
